@@ -81,7 +81,7 @@ class Chongwu{
             str+=`
             <ul  abc=${this.res[i].goodsId} >
                 <li>
-                    <a target="_Blank">
+                    <a target="_blank">
                         <img src="${this.res[i].src}" width="206" height="236">
                         <p>${this.res[i].name}</p>
                         <span>${"价格："+this.res[i].price}</span>
@@ -117,8 +117,8 @@ class Chongwu{
         data = JSON.stringify(data);
         //     var onoff = true;
             setCookie("shangpin",data,{expires:3});
-            
-            location.href="details.1/details.html";
+            window.open("details.1/details.html","_blank")
+            // location.href="details.1/details.html";//不能在原基础上打开
             // for(var i=0;i<this.goods.length;i++){
             //     if(this.goods[i].id == this.id){
             //         this.goods[i].num ++;

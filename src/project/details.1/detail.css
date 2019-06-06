@@ -95,6 +95,10 @@
     padding: 2px 0;
     line-height: 26px;
     min-height: 26px;
+    margin: 10px 0;
+}
+#productBeanName{
+        color: cornflowerblue
 }
 .proInfo li .dd .price {
     font-family: "microsoft yahei";
@@ -165,6 +169,9 @@
     float: left;
     text-align: left;
     width: 72px;
+}
+#tianprice p{
+    width: 100px;
 }
 .proInfo li .dd {
     float: left;

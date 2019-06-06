@@ -343,6 +343,14 @@ line-height: 20px;
     color:#939393;
     font-weight: 500
 }
+#shouji3  .tab li img:hover{
+    transform: scale(1.2,1.2);
+}
+#shouji3  .tab li a b:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.5);
+    color: #f60
+}
 #shouji3  .tab img{
     padding:5px 7px 5px 0;
     padding-left: 7px;;

@@ -138,8 +138,7 @@ class Detail{
 new Detail;
 
 
-this.bImg = document.querySelector(".b_box img")
-console.log(this.bImg)
+
 function Magnifier(){
                 this.sBox = document.querySelector(".s_box")
                 this.bBox = document.querySelector(".b_box")
@@ -163,7 +162,7 @@ function Magnifier(){
             Magnifier.prototype.move = function(e){
                 var l = e.pageX - this.sBox.offsetLeft - this.span.offsetWidth/2;
                 var t = e.pageY - this.sBox.offsetTop - this.span.offsetHeight/2;
-                
+
                 if(l<0) l=0;
                 if(t<0) t=0;
                 if(l > this.sBox.offsetWidth - this.span.offsetWidth){
@@ -172,7 +171,6 @@ function Magnifier(){
                 if(t > this.sBox.offsetHeight - this.span.offsetHeight){
                     t = this.sBox.offsetHeight - this.span.offsetHeight;
                 }
-                
                 this.span.style.left = l + "px";
                 this.span.style.top = t + "px";
                 var x = l/(this.sBox.offsetWidth - this.span.offsetWidth);
@@ -190,25 +188,3 @@ function Magnifier(){
             }
             
             new Magnifier();
-
-            var ali=document.getElementById("tiemer").children;
-            var date2 = new Date("2019/6/18 00:00:00");
-            console.log(date2)
-            var timer2 = parseInt(date2.getTime()/1000);
-            var date;
-            var time3 = setInterval(function(){
-                date = new Date();
-                var timer =parseInt(date.getTime()/1000);
-                var d = num(parseInt((timer2-timer)/3600/24));
-                var h = num(parseInt((timer2-timer)/3600%24));
-                var m = num(parseInt((timer2-timer)/60%60));
-                var s = num(parseInt((timer2-timer)%60));
-
-                ali[0].innerHTML = h;
-                ali[1].innerHTML = m;
-                ali[2].innerHTML = s;
-            },1000);
-            function num(a){
-                return  a>=10? a:"0"+a;
-                }
-                new Magnifier();
