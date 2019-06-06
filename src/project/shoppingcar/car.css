@@ -1,0 +1,9 @@
+.tab img{width:50px;}
+.tab span{width: 60px;
+    height:40px;
+    line-height: 40px;
+    background: #99f;
+    color: #fff;
+    display: block;
+    text-align: center;
+    cursor: pointer;}

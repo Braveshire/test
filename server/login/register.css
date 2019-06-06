@@ -1,0 +1,86 @@
+.wr{
+    width: 970px;
+    clear: both;
+    margin: 0 auto;
+}
+.rg-t {
+    height: 45px;
+    margin: 30px auto;
+}
+.logo{
+    float: left;
+}
+#login {
+    border: 5px #efefef solid;
+    margin-bottom: 70px;
+    height: 432px;
+}
+.login-l, .login-d {
+    width: 560px;
+    float: left;
+}
+.label {
+    padding-top: 5px;
+    text-align: left;
+    color: #999;
+    font-size: 14px;
+}
+#user,#pass{
+    padding-top: 5px;
+text-align: left;
+color: #999;
+font-size: 14px;height: 24px;
+line-height: 24px;
+border: 1px #ccc solid;
+font-family: arial, "宋体";
+font-size: 14px;
+padding: 4px 25px 4px 5px;
+width: 243px;
+}
+.item {
+    color: #666666;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+#btn{
+    /* width: 240px; */
+    width: 134px;
+    height: 35px;
+    /* background-image: url(image/loginBtn.gif); */
+    background-image: url(image/loginBtn.gif);
+    /* background-position: 0 -907px; */
+    background-repeat: no-repeat; 
+    background-position: 0 -243px;
+    display: block;
+    border: 0;
+    margin:30px 68px 0
+}
+.for3 span {
+    float: left;
+}
+.for3 {
+    padding-left: 3px;
+    height: 33px;
+    line-height: 33px;
+    margin-top: 30px;
+}
+.for3 a {
+    width: 134px;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 10px;
+    text-align: center;
+    color: #E13939;
+    font-size: 16px;
+    font-family: microsoft yahei;
+    background: url(image/login_btnReg.gif) no-repeat 0 -238px;
+    float: left;
+}
+.loginform {
+    float: right;
+    margin-top: 33px;
+    padding-left: 35px;
+    width: 345px;
+    background: url(images/l-line.gif) no-repeat left top;
+}

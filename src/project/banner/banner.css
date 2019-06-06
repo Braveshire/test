@@ -1,0 +1,283 @@
+#banner{
+    width: 800px;
+
+}
+/* #banner .margin{width:800px} */
+.box{width:800px;position: relative;height: 455px;left: 230px;overflow: hidden;}
+
+.box img{width: 800px;height: 449px;;position: absolute;left: 800px;top:0;}
+.box img:nth-child(1){left:0}
+
+.box .btns{}
+.btns input{position: absolute;top: 190px;width: 40px;height: 40px;border: none;background: rgba(200,200,200,0.6);color: #fff}
+#left{left:0;}
+#right{right:0}
+
+.mainscreen{
+    height: 455px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.mainscreen #show-case{
+    margin-left: 405px;
+    position: absolute;
+    z-index: 8;
+    top: 8px;
+    left: 50%;
+    width: 190px;
+    overflow: hidden;
+    margin-left: 405px
+}
+
+.mainscreen #show-case ul{
+    clear: both;
+    width: 170px;
+    margin: 0 auto;
+    height: 130px;
+    overflow: hidden
+}
+.mainscreen #show-case ul li{
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mainscreen #show-case .title{
+    border-bottom: 1px #d9d9d9 solid;
+    width: 172px;
+    margin: 0 auto 2px;
+    line-height: 32px;
+    overflow: hidden;
+    padding: 5px 4px 0
+}
+.promo_show{
+    clear: both;
+    height: 175px;
+    padding-top: 10px;
+    z-index: -990;
+}
+.bg{
+    background: #f5f5f5;
+    height: 122px;
+    margin-top: 53px;
+    position: relative
+}
+.PSlist{
+    height: 175px;
+    overflow: hidden;
+    position: absolute;
+    left: 37px;
+    bottom: 0;
+}
+.PSlist .line{
+    width: 1px;
+    background: #fff;
+    border-left: 1px #dfdfdf solid;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    height: 108px;
+    margin-top: 60px;
+}
+.PSlist ul{
+    /* position: absolute; */
+    height: 175px;
+}
+.PSlist ul li{
+    float: left;
+    width: 277px;
+    height: 180px;
+}
+.PSlist ul li a{
+    display: block;
+    height: 175px;
+}
+.PSlist ul li img{
+    width: 277px;
+    height: 175px;
+}
+.lt-tab{
+    width: 936px;
+    float: left;   
+}
+.lt-tab .lt-tabtit{
+    height: 40px;
+    overflow: hidden;
+    
+}
+.lt-tab .lt-tabtit ul li{
+    float: left;
+    height: 38px;
+    position: relative;
+    overflow: hidden;
+}
+.lt-tab .lt-tabtit ul li span{
+    width: 7px;
+    height: 4px;
+    background: url(../public/image//thnewbg.png) no-repeat -102px -302px;
+    position: absolute;
+    bottom: 0;
+    left: 152px;
+}
+.lt-tab .lt-tabtit ul li a{
+    width: 312px;
+    text-align: center;
+    font-size: 18px;color: #333;
+    font-weight: 700;
+    font-family: "microsoft yahei";
+    display: block;
+    line-height: 38px;
+}
+.lt-tab .lt-tabtit ul li.active{
+    border-bottom: 2px #fe8d51 solid
+}
+.rt{
+    float: right;
+}
+.promotions {
+    position: relative;
+}
+.promotions .lt-ct1, .promotions .lt-ct2, .promotions .lt-ct3 {
+    height: 438px;
+    clear: both;
+    margin-top: 8px;}
+
+.promotions .lt-ct1 li.for1 {
+    width: 300px;
+    height: 438px;
+}
+.lt-ct1 li{
+    float: left;
+    overflow: hidden;
+}
+.wideWrap .promotions .lt-ct1 li.for2 {
+    width: 310px;
+    margin-left: 8px;
+}
+.promotions .lt-ct1 li.for2 div {
+    font-size: 0;
+    line-height: 0;
+    height: 215px;
+    margin-left: 8px;
+}
+.wideWrap .promotions .lt-ct1 li.for2 div img {
+    width: 310px;
+    height: 215px;
+}
+.m8 {
+    margin-top: 8px;
+}
+.promotions .lt-ct1{
+    display: block
+}
+.promotions .lt-ct3 {
+    display: none;
+    position: absolute;top: 47px;
+}
+.promotions .lt-ct3 li{
+    float: left;
+    height: 213px;
+    border: 1px solid  #dedede;
+    width: 304px;
+    margin-right: 9px;
+}
+.promotions .lt-ct3 li .pic{
+    float: left;
+    width: 190px;
+    height: 190px;
+    margin:11px 5px 0 10px;
+}
+.promotions .lt-ct3 li .title{
+    width: 85px;
+    height: 60px;
+    float: left;
+    font-size: 12px;
+    margin: 50px auto 10px;
+    line-height: 20px;
+    overflow: hidden;
+    font-family: "microsoft yahei"
+}
+.promotions .lt-ct3 li .price{
+    float: left;
+}
+.promotions .lt-ct3 li .pic img {
+    width: 190px;
+    height: 190px;
+}
+.promotions .lt-ct3 li .price span {
+    color: #F60200;
+    font-size: 14px;
+    display: block;
+}
+.promotions .lt-ct3 li .price del {
+    color: #9A9A9A;
+    font-size: 12px;
+    display: block;
+}
+del {
+    text-decoration: line-through;}
+
+    .promotions .rt {
+        float: left;
+        width: 245px;
+    }
+.promotions .rt .title {
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.promotions .rt .title h3 {
+    float: left;
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    font-family: "microsoft yahei";
+}
+.promotions .rt .title h3 strong {
+    color: #da2129;
+}
+.promotions .rt .spbox {
+    height: 217px;
+    border: 1px #e1e1e1 solid;
+    position: relative;
+    text-align: center;
+}
+.promotions .rt .spbox a {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 10px auto;
+    font-size: 0;
+    line-height: 0;
+}
+.promotions .rt .spbox .b0 {
+    width: 243px;
+    background: #000;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+    z-index: 1;
+}
+.promotions .rt .spbox p {
+    width: 243px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: "microsoft yahei";
+    z-index: 2;
+    overflow: hidden;
+}
+.promotions .rt .spbox a img {
+    width: 180px;
+    height: 180px;
+}
